@@ -1,4 +1,9 @@
 package Cap1;
+
+import jdk.swing.interop.SwingInterOpUtils;
+
+import java.sql.SQLOutput;
+
 /*
 Este codigo demonstra uma variavel.
  */
@@ -9,10 +14,14 @@ public class Example2 {
 
         var1 = 1024; //esta instrução atribui um valor a primeira variavel.
 
-        System.out.println("var 1 contains" + var1);
+        System.out.println("var1 contains " + var1);
 
         var2 = var1/2;
         System.out.print("var2 contains var1/2: ");
         System.out.println(var2);
+
+
         }
 }
+
+
