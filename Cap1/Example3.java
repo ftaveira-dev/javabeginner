@@ -14,6 +14,7 @@ public class Example3 {
         System.out.println("Original value of var: " + var);
         System.out.println("Original value of x: " + x);
         System.out.println(); //linha em branco
+        System.out.println(); //linha em branco
 
         //agora dividindo ambas por 4
 
