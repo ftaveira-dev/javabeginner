@@ -11,7 +11,7 @@ public class NestVar {
         for(count = 0; count < 10; count = count+1) {
             System.out.println("this is count " + count);
 
-            int count; //invalido, ja foi declarado anteriormente
+            //int count; //invalido, ja foi declarado anteriormente
             for (count = 0; count < 2; count++)
                 System.out.println("this program is in error");
         }
